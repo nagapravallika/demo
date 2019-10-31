@@ -14,12 +14,7 @@ public class DemoController
 {
 	@Autowired
 	private DemoServices DemoServices;
-	
-//	@RequestMapping("/home")
-//	public String home()
-//	{
-//		return "home";
-//	}
+	//Comment Added 
 
 	@RequestMapping("/create")
 	public String create(@RequestParam String name, @RequestParam int phoneno, @RequestParam String email)
